@@ -6,7 +6,12 @@ body{
 .container{
   width: 100%;
   text-align: center;
-  
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container h1{
+  color: white;
+  margin-top: 3.2rem;
 }
 
 .container img{
@@ -21,9 +26,15 @@ body{
   font-family: 'Montserrat', sans-serif;
   color: white;
   width: 90%;
+
+  margin-left: auto;
+  margin-right: auto;
   padding: 1.6rem;
+
+  margin-top: 1.2rem;
 }
 
-.servicos ul{
-  margin: 0 auto;
+ul{
+  /* list-style: none; */
+  padding: 1.6rem;
 }
