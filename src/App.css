@@ -1,0 +1,17 @@
+body{
+  background-color: #0389ae;
+  display: flex;
+}
+
+.container{
+  width: 100%;
+  text-align: center;
+  
+}
+
+.container img{
+  width: 85%;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 3.2rem;
+}
