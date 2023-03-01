@@ -51,9 +51,27 @@ ul{
   padding: 1.6rem;
 }
 
+#luana{
+  width: 75%;
+}
+.top{
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.video{
+  background-color: white;
+  height: 20.0rem;
+  width: 33.0rem;
+  margin: 0 auto;
+  border-radius: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .contato button{
-  margin-top: 3.2rem;
+  margin-top: 2.2rem;
   width: 22.0rem;
   height: 4.0rem;
   border-radius: 3.2rem;
@@ -68,4 +86,14 @@ ul{
 .contato button:hover{
   background-color: #00b825;
   cursor: pointer;
+}
+
+
+footer{
+  color: white;
+  margin-top: 3.2rem;
+}
+
+footer p {
+  font-size: 13px;
 }
