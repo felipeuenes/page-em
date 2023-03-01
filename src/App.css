@@ -120,6 +120,8 @@ footer p {
 
 input{
   display: none;
+  color: white;
+  background-color: #fff;
 }
 
 .slides{
@@ -143,14 +145,20 @@ input{
   display: block;
   height: 29.0rem;
   width: 40.0rem;
-  margin: auto;
+  
   margin-top: 20px;
   position: relative;
+}
+.slider input{
+  display: flex;
+  gap: 2.0rem;
 }
 
 .slider li {
   list-style: none;
   position: absolute;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .slider img {
@@ -165,14 +173,15 @@ input{
 }
 
 .slider label {
-  background-color: #000;
+  background-color: #ffffff;
   bottom: 10px;
   cursor: pointer;
-  display: block;
-  height: 10px;
+  display: flex;
+  height: .8rem;
   position: absolute;
-  width: 10px;
+  width: .8rem;
   z-index: 10;
+  gap: 3.6rem;
 }
 
 .slider li:nth-child(1) label {
@@ -185,6 +194,12 @@ input{
 
 .slider li:nth-child(3) label {
   left: 70px;
+}
+.slider li:nth-child(4) label {
+  left: 100px;
+}
+.slider li:nth-child(5) label {
+  left: 130px;
 }
 
 .slider img {
