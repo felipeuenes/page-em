@@ -43,7 +43,7 @@ de trabalho.</li>
       <h1>CONTATO</h1>
 
       <div className='contato'>
-          <button>WhatsApp</button>
+          <a href="https://contate.me/empreenda-mais"><button>WhatsApp</button></a>
       </div>
 
     </div>
