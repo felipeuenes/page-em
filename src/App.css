@@ -1,6 +1,13 @@
 body{
   background-color: #0389ae;
   display: flex;
+  background-image: url('./images/DJI_0205.JPG');
+  background-repeat: no-repeat;
+}
+
+
+iframe{
+  border-radius: 1.2rem;
 }
 
 .container{
@@ -25,7 +32,7 @@ body{
   text-align: left;
   font-family: 'Montserrat', sans-serif;
   color: white;
-  width: 90%;
+  width: 100%;
 
   margin-left: auto;
   margin-right: auto;
@@ -34,7 +41,31 @@ body{
   margin-top: 1.2rem;
 }
 
+.servicos img{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
 ul{
   /* list-style: none; */
   padding: 1.6rem;
+}
+
+
+.contato button{
+  margin-top: 3.2rem;
+  width: 22.0rem;
+  height: 4.0rem;
+  border-radius: 3.2rem;
+  border: none;
+
+  background-color: #00dd2d;
+  color: white;
+
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.315);
+}
+
+.contato button:hover{
+  background-color: #00b825;
+  cursor: pointer;
 }
