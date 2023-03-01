@@ -1,6 +1,12 @@
 import './App.css'
 import imageLuana from './images/header.png'
 import servicos from './images/servicos.jpg'
+import image1 from './images/1.jpg'
+import image2 from './images/2.jpg'
+import image3 from './images/3.jpg'
+import image4 from './images/4.jpg'
+import image5 from './images/5.jpg'
+
 
 export function App() {
  
@@ -36,8 +42,46 @@ de trabalho.</li>
         </ul> */}
 
       </div>
+      
+      <div className='content'>
+          <div className='slides'>
+            <input type="radio" name='slide' id='slide1' checked/>
+            <input type="radio" name='slide' id='slide2'/>
+            <input type="radio" name='slide' id='slide3'/>
+            <input type="radio" name='slide' id='slide4'/>
+            <input type="radio" name='slide' id='slide5'/>
+          </div>
 
-      <h1>ONDE ESTAMOS?</h1>
+          <div className="slide s1">
+            <img src={image1} alt="e+" srcset="" />
+          </div>
+          <div className="slide">
+            <img src={image2} alt="e+" srcset="" />
+
+          </div>
+          <div className="slide">
+            <img src={image3} alt="e+" srcset="" />
+
+          </div>
+          <div className="slide">
+            <img src={image4} alt="e+" srcset="" />
+
+          </div>
+          <div className="slide">
+            <img src={image5} alt="e+" srcset="" />
+
+          </div>
+        
+          <div className='navegation'>
+              <label className='bar' htmlFor="slide1"></label>
+              <label className='bar' htmlFor="slide2"></label>
+              <label className='bar' htmlFor="slide3"></label>
+              <label className='bar' htmlFor="slide4"></label>
+              <label className='bar' htmlFor="slide5"></label>
+          </div>
+      </div>
+
+      <h1 id='onde'>ONDE ESTAMOS?</h1>
       <div>
 
 
