@@ -22,64 +22,40 @@ export function App() {
     </div>
       </div>
 
-      {/* <h1>NOSSOS SERVIÇOS</h1> */}
+
 
       <div className='servicos'>
-        {/* <img src={servicos}/> */}
-        {/* <ul>
-          <li>Orientações personalizadas.</li>
-          <li>Visitas de acompanhamento in loco.</li>
-          <li>Capacitações estratégicas.</li>
-          <li>Orientações para o crédito responsável.</li>
-          <li>Orientação para abertura e baixa de MEI.</li>
-          <li>Eventos de oportunidade de negócio.</li>
-          <li>Intercâmbio e network.</li>
-          <li>Parcerias.</li>
-          <li>Atendimento semanal de serviços contábeis
-para MEI e orientações.</li>
-          <li>Oportunizamos acesso a vagas no mercado
-de trabalho.</li>
-        </ul> */}
+       
 
       </div>
       
-      <div className='content'>
-          <div className='slides'>
-            <input type="radio" name='slide' id='slide1' checked/>
-            <input type="radio" name='slide' id='slide2'/>
-            <input type="radio" name='slide' id='slide3'/>
-            <input type="radio" name='slide' id='slide4'/>
-            <input type="radio" name='slide' id='slide5'/>
-          </div>
-
-          <div className="slide s1">
-            <img src={image1} alt="e+" srcset="" />
-          </div>
-          <div className="slide">
-            <img src={image2} alt="e+" srcset="" />
-
-          </div>
-          <div className="slide">
-            <img src={image3} alt="e+" srcset="" />
-
-          </div>
-          <div className="slide">
-            <img src={image4} alt="e+" srcset="" />
-
-          </div>
-          <div className="slide">
-            <img src={image5} alt="e+" srcset="" />
-
-          </div>
-        
-          <div className='navegation'>
-              <label className='bar' htmlFor="slide1"></label>
-              <label className='bar' htmlFor="slide2"></label>
-              <label className='bar' htmlFor="slide3"></label>
-              <label className='bar' htmlFor="slide4"></label>
-              <label className='bar' htmlFor="slide5"></label>
-          </div>
-      </div>
+      <ul class="slider">
+    <li>
+          <input type="radio" id='slide1' name='slide' checked/>
+          <label htmlFor="slide1"></label>
+          <img src={image1} />
+    </li>
+    <li>
+          <input type="radio" id='slide2' name='slide' checked/>
+          <label htmlFor="slide2"></label>
+          <img src={image2} />
+    </li>
+    <li>
+          <input type="radio" id='slide3' name='slide' checked/>
+          <label htmlFor="slide3"></label>
+          <img src={image3} />
+    </li>
+    <li>
+          <input type="radio" id='slide4' name='slide' checked/>
+          <label htmlFor="slide4"></label>
+          <img src={image4} />
+    </li>
+    <li>
+          <input type="radio" id='slide5' name='slide' checked/>
+          <label htmlFor="slide5"></label>
+          <img src={image5} />
+    </li>
+</ul>
 
       <h1 id='onde'>ONDE ESTAMOS?</h1>
       <div>
