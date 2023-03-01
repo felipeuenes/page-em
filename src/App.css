@@ -3,7 +3,9 @@ body{
   display: flex;
   background-image: url('./images/DJI_0205.JPG');
   background-repeat: no-repeat;
+  
 }
+
 * { margin: 0; padding: 0; }
 
 
