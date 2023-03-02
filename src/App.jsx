@@ -10,6 +10,7 @@ import image5 from './images/5.jpg'
 
 import { RightOutlined } from '@ant-design/icons'
 import { LeftOutlined } from '@ant-design/icons/lib/icons'
+import { createElement } from 'react'
 
 
 
@@ -17,6 +18,8 @@ import { LeftOutlined } from '@ant-design/icons/lib/icons'
 export function App() {
  
 
+
+ 
   return (
     <div className="container">
       <div className='top'>
@@ -56,14 +59,13 @@ export function App() {
           </div>
 
           <div className='balls'>
-              <div className='imgAtual' id="0"></div>
+              {/* <div className='imgAtual' id="0"></div>
               <div id="1"></div>
               <div id="2"></div>
-              <div id="3"></div>
+              <div id="3"></div> */}
           </div>
       </div>
-
-     
+    
 
       <h1 id='onde'>ONDE ESTAMOS?</h1>
       <div>
