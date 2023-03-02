@@ -65,7 +65,10 @@ export function App() {
               <div id="3"></div> */}
           </div>
       </div>
-    
+    <div className='txt'>
+      <h1></h1>
+      <p>Uma equipe preparada para orientar você empreendedor&#40;a&#41; no seu comércio/serviço</p>
+    </div>
 
       <h1 id='onde'>ONDE ESTAMOS?</h1>
       <div>
