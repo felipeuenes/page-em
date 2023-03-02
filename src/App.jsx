@@ -8,6 +8,12 @@ import image4 from './images/4.jpg'
 import image5 from './images/5.jpg'
 
 
+import { RightOutlined } from '@ant-design/icons'
+import { LeftOutlined } from '@ant-design/icons/lib/icons'
+
+
+
+
 export function App() {
  
 
@@ -22,40 +28,42 @@ export function App() {
     </div>
       </div>
 
+      <div className='slide'>
+          <div className='slides'>  
+
+              <div id='voltar' className='btn'>
+              <LeftOutlined />
+              </div>
+              <div id='next' className='btn'>
+              <RightOutlined/>
+
+              </div>
 
 
-      <div className='servicos'>
-       
+              <div id='atual' className='image'>
+                <img src={image1} alt="" srcset="" />
+              </div>
+              <div className='image'>
+                <img src={image2} alt="" srcset="" />
+              </div>
+              <div className='image'>
+                <img src={image3} alt="" srcset="" />
+              </div>
+              <div className='image'>
+                <img src={image4} alt="" srcset="" />
+              </div>
 
+          </div>
+
+          <div className='balls'>
+              <div className='imgAtual' id="0"></div>
+              <div id="1"></div>
+              <div id="2"></div>
+              <div id="3"></div>
+          </div>
       </div>
-      
-      <ul class="slider">
-    <li>
-          <input type="radio" id='slide1' name='slide' checked/>
-          <label htmlFor="slide1"></label>
-          <img src={image1} />
-    </li>
-    <li>
-          <input type="radio" id='slide2' name='slide' checked/>
-          <label htmlFor="slide2"></label>
-          <img src={image2} />
-    </li>
-    <li>
-          <input type="radio" id='slide3' name='slide' checked/>
-          <label htmlFor="slide3"></label>
-          <img src={image3} />
-    </li>
-    <li>
-          <input type="radio" id='slide4' name='slide' checked/>
-          <label htmlFor="slide4"></label>
-          <img src={image4} />
-    </li>
-    <li>
-          <input type="radio" id='slide5' name='slide' checked/>
-          <label htmlFor="slide5"></label>
-          <img src={image5} />
-    </li>
-</ul>
+
+     
 
       <h1 id='onde'>ONDE ESTAMOS?</h1>
       <div>
