@@ -1,16 +1,13 @@
 import './App.css'
 import imageLuana from './images/header.png'
 import servicos from './images/servicos.jpg'
-import image1 from './images/1.jpg'
-import image2 from './images/2.jpg'
-import image3 from './images/3.jpg'
-import image4 from './images/4.jpg'
-import image5 from './images/5.jpg'
+
 
 
 import { RightOutlined } from '@ant-design/icons'
 import { LeftOutlined } from '@ant-design/icons/lib/icons'
 import { createElement } from 'react'
+import { Slider } from './components/Slider'
 
 
 
@@ -31,39 +28,17 @@ export function App() {
     </div>
       </div>
 
-      <div className='slide'>
-          <div className='slides'>  
+      <div>
+          
 
-              <div id='voltar' className='btn'>
-              <LeftOutlined />
-              </div>
-              <div id='next' className='btn'>
-              <RightOutlined/>
+              
 
-              </div>
+      <Slider/>
+             
 
+         
 
-              <div id='atual' className='image'>
-                <img src={image1} alt="" srcset="" />
-              </div>
-              <div className='image'>
-                <img src={image2} alt="" srcset="" />
-              </div>
-              <div className='image'>
-                <img src={image3} alt="" srcset="" />
-              </div>
-              <div className='image'>
-                <img src={image4} alt="" srcset="" />
-              </div>
-
-          </div>
-
-          <div className='balls'>
-              {/* <div className='imgAtual' id="0"></div>
-              <div id="1"></div>
-              <div id="2"></div>
-              <div id="3"></div> */}
-          </div>
+        
       </div>
     <div className='txt'>
       <h1></h1>
