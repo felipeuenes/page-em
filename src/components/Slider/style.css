@@ -1,12 +1,12 @@
 .carouselContainer {
     position: relative;
     
-    width: 90%;
-    max-width: 48.0rem;
+    width: 100%;
+    max-width: 300%;
 
     overflow: hidden;
-    /* overflow-x: auto; */
-    /* scroll-snap-type: x mandatory; */
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
 }
 
 img {
@@ -25,7 +25,7 @@ img {
     gap: 5px;
     
     width: 300%;
-    height: 40.0rem;
+    height: 25.0rem;
 
     margin-left: -100%;
     
