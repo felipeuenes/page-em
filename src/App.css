@@ -67,7 +67,7 @@ ul{
 .video{
   background-color: white;
   height: 19.0rem;
-  width: 38.0rem;
+  width: 33.0rem;
   margin: 0 auto;
   border-radius: 1.6rem;
   display: flex;
@@ -134,4 +134,7 @@ h1{
 
 .txt{
   color: white;
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: start;
 }

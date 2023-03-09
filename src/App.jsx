@@ -24,7 +24,7 @@ export function App() {
       <img src={imageLuana} alt="empreendamais" srcset="" id='luana'/>
     <div className='video'>
 
-      <iframe width="370" height="180" src="https://www.youtube.com/embed/M9blMqfJJ0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id='video'></iframe>
+      <iframe width="320" height="180" src="https://www.youtube.com/embed/M9blMqfJJ0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id='video'></iframe>
     </div>
       </div>
 
@@ -43,8 +43,15 @@ export function App() {
     <div className='txt'>
       <h1></h1>
       <p>Uma equipe preparada para orientar você empreendedor&#40;a&#41; no seu comércio/serviço</p>
-    </div>
+<br />
+      <section>
+        <p>Nossa missão é orientar você empreendedor &#40;a&#41; a progredir e até mesmo criar do zero o seu negócio, através de: Cursos, mentorias, visitas, palestras, eventos, entre outros...</p>
+        <br />
+        <p>Semanelmente temos atendimento com a contadora para abertura e baixa de MEI, emissão de boleto DAS, parcelamento e muito mais!</p>
+      </section>
 
+
+    </div>
       <h1 id='onde'>ONDE ESTAMOS?</h1>
       <div>
 
